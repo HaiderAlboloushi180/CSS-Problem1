@@ -69,7 +69,6 @@ body {
   padding: 20px;
   border: solid 1px #dddddd;
   border-radius: 25px;
-  margin-right: 10px;
 }
 
 .centered-vertically {
@@ -80,10 +79,17 @@ body {
   flex-wrap: wrap;
 }
 
+.buttons-container {
+  padding-left: 10px;
+}
+
 /* عند عرض شاشة  600بيكسيل أو أصغر */
 @media only screen and (max-width: 600px) {
   .buttons-container {
     margin-top: 20px;
     width: 100%;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
 }
